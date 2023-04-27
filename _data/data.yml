@@ -1,16 +1,16 @@
 basic:
-  name: Foo Bar                      # name
+  name: Smirnov Vasuliy                      # name
   title: Backend Developer           # job title
   avatar:
-    show: true                       # show or hide avatar
+    show: false                      # show or hide avatar
     path: /assets/images/profile.png # avatar file path
 
 contact:
   # meta
-  location: Beijing, China # location
-  email: me@example.com    # email address
-  phone: +86-111-2222-3333 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
+  location: Moscow, Russia # location
+  email: xomafok@gmail.com # email address
+  phone:                   # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  website:                 # site URL without schema, like example.com, will automatically prepand "https://"
 
   gender:                  # gender or pronoun
   birthday:                # birthday
@@ -21,18 +21,18 @@ contact:
   # contact
   wechat:                  # username
   whatsapp:                # 8611122223333     | https://wa.me/8611122223333
-  telegram:                # username          | https://t.me/username
+  telegram: SmirnuX        # username          | https://t.me/username
   messenger:               # username          | https://m.me/username
   line:                    # lineid            | https://line.me/R/ti/p/@lineid
   viber:                   # username          | https://vb.me/username
   threema:                 # userid            | https://threema.id/userid
 
   # programmer
-  github:                  # username          | https://github.com/username
+  github: SmirnuX          # username          | https://github.com/username
   gitlab:                  # username          | https://gitlab.com/username
   bitbucket:               # username          | https://bitbucket.com/username
   stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
-  leetcode:                # username          | https://leetcode.com/username
+  leetcode: SmirnuX        # username          | https://leetcode.com/username
   codeforces:              # username          | https://codeforces.com/profile/username
   codewars:                # username          | https://www.codewars.com/users/username
   codepen:                 # username          | https://codepen.io/username
@@ -95,30 +95,19 @@ experience:
     The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
 
   items:
-    - company: Second Company
-      link: '#'
-      tags: Full-time
-      date: 2018.03 - 2019.03
-      role: Backend Developer
-      location: Beijing
-      description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
-
-    - company: First Company
+    - company: Yandex, Geoservice infrastructure
       link:
-      tags: Part-time, remote
-      date: 2017.03 - 2018.03
+      tags: C++, Python
+      date: 10.2022 - 04.2023
       role: Backend Developer
-      location: Beijing
+      location: Moscow
       description: |
         Your key responsibilities and achievements in the company.
         + First
         + Second
 
-project:
-  show: true
+project:  # All projects are already on GitHub
+  show: false
   order: 3
   title: Projects
   description: |
