@@ -1,5 +1,5 @@
 basic:
-  name: Смирнов Василий [WIP]                     # name
+  name: Смирнов Василий                   # name
   title: Бэкенд разработчик           # job title
   avatar:
     show: false                      # show or hide avatar
@@ -16,16 +16,9 @@ contact:
   birthday: 08.12.2000     # birthday
   nationality:             # nationality
   visa:                    # passport visa
-  drivinglicense:          # driving licence
 
   # contact
-  wechat:                  # username
-  whatsapp:                # 8611122223333     | https://wa.me/8611122223333
   telegram: SmirnuX        # username          | https://t.me/username
-  messenger:               # username          | https://m.me/username
-  line:                    # lineid            | https://line.me/R/ti/p/@lineid
-  viber:                   # username          | https://vb.me/username
-  threema:                 # userid            | https://threema.id/userid
 
   # programmer
   github: SmirnuX          # username          | https://github.com/username
@@ -38,54 +31,13 @@ contact:
   codepen:                 # username          | https://codepen.io/username
   tryhackme:               # username          | https://tryhackme.com/p/username
 
-  # academic
-  googlescholar:           # username          | https://scholar.google.com/citations?user=username
-  researchgate:            # username          | https://www.researchgate.net/profile/username
-  kaggle:                  # username          | https://www.kaggle.com/username
-  orcid:                   # id                | https://orcid.org/id
-  figshare:                # name/id           | https://figshare.com/authors/name/id
-
-  # writer
-  devto:                   # username          | https://dev.to/username
-  medium:                  # username          | https://medium.com/@username
-  wordpress:               # username          | https://username.wordpress.com
-  blogger:                 # username          | https://username.blogspot.com
-  wikipedia:               # username          | https://www.wikipedia.org/wiki/User:username
-
-  # designer
-  figma:                   # username          | https://www.figma.com/@username
-  behance:                 # username          | https://www.behance.net/username
-  dribble:                 # username          | https://dribbble.com/username
-  artstation:              # username          | https://www.artstation.com/username
-
-  # other cv
-  linkedin:                # username          | https://linkedin.com/in/username
-  indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
-  xing:                    # username          | https://www.xing.com/profile/username
-  fiverr:                  # username          | https://www.fiverr.com/username
-  freelancer:              # username          | https://www.freelancer.com/u/username
-
-  # social media
-  twitter:                 # username          | https://twitter.com/username
-  mastodon:                # username@server
-  instagram:               # username          | https://instagram.com/username
-  unsplash:                # username          | https://unsplash.com/@username
-  _500px:                  # username          | https://500px.com/p/username
-  youtube:                 # username          | https://www.youtube.com/@username
-  tiktok:                  # username          | https://www.tiktok.com/@username
-  quora:                   # username          | https://www.quora.com/profile/username
-  zhihu:                   # username          | https://www.zhihu.com/people/username
-  goodreads:               # username          | https://www.goodreads.com/user/show/username
-  strava:                  # useid             | https://www.strava.com/athletes/userid
 
 profile:
   show: false
   order: 1
-  title: Profile
+  title: Обо мне
   description: |
-    The profile section in a resume is a brief summary of the applicant's skills, qualifications, and experience. The purpose of this section is to provide a snapshot of the applicant's professional background and highlight their most relevant accomplishments and strengths. It may include information such as the applicant's career objectives, years of experience, areas of expertise, and key achievements.
 
-    A well-crafted profile section can help to grab the attention of potential employers and encourage them to read on and learn more about the applicant's qualifications and experience.    
 
 skill:
   show: true
@@ -98,8 +50,7 @@ skill:
       item:
         - C/C++ (STL, Qt)
         - Python
-        - SQL
-    - name: Другие нввыки
+    - name: Другие навыки
       item:
         - Умение работать с ОС Linux
         - Знание принципов работы и устройства компьютерных сетей
@@ -115,14 +66,15 @@ experience:
   items:
     - company: ООО "Яндекс", отделение инфраструктуры геосервисов
       link:
-      tags: C++, Python
+      tags:
       date: 10.2022 - 04.2023
-      role: Стажер-разработчик
+      role: Стажер-разработчик C++/Python
       location: Москва, Россия
       description: |
-      В ходе стажировки я:
-        + Перенес функционал сервиса на платформу Temporal
-        + 
+      В ходе стажировки я работал над:
+        + переносом функционала сервиса на платформу Temporal, тестированием и развертыванием этого сервиса
+        + рефакторингом сервиса с целью упрощения навигации и конфигурации
+        + обеспечением совместимости системы сбора метрик с внутренними сервисами
 
 education:
   show: true
@@ -144,9 +96,20 @@ education:
       degree: Бакалавриат
       description:
 
-language:
+evaluation:
   show: false
   order: 5
+  title: Self-evaluation
+  description: |
+    The self-evaluation section in a resume is a section where you can evaluate and assess your own skills, strengths, and weaknesses. It is typically a short paragraph or bullet points at the end of your resume, which provides a personal perspective on your abilities and how they align with the requirements of the job.
+
+    In this section, you can highlight your achievements, areas of expertise, and any unique qualities or experiences that set you apart from other candidates. You can also mention areas where you are looking to improve or gain further experience.
+
+    A well-crafted self-evaluation section can demonstrate your self-awareness and confidence in your abilities, as well as your willingness to continuously learn and grow. However, it is important to be honest and avoid over-inflating your skills or qualifications, as this can negatively impact your credibility and the hiring manager's impression of you.
+
+language:
+  show: false
+  order: 13
   title: Языки
   description:
   items:
@@ -284,16 +247,7 @@ interest:
     - item: Cooking
       link:
 
-evaluation:
-  show: true
-  order: 13
-  title: Self-evaluation
-  description: |
-    The self-evaluation section in a resume is a section where you can evaluate and assess your own skills, strengths, and weaknesses. It is typically a short paragraph or bullet points at the end of your resume, which provides a personal perspective on your abilities and how they align with the requirements of the job.
 
-    In this section, you can highlight your achievements, areas of expertise, and any unique qualities or experiences that set you apart from other candidates. You can also mention areas where you are looking to improve or gain further experience.
-
-    A well-crafted self-evaluation section can demonstrate your self-awareness and confidence in your abilities, as well as your willingness to continuously learn and grow. However, it is important to be honest and avoid over-inflating your skills or qualifications, as this can negatively impact your credibility and the hiring manager's impression of you.
 
 reference:
   show: false

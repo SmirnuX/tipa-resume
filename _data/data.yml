@@ -1,5 +1,5 @@
 basic:
-  name: Smirnov Vasiliy [WIP]                     # name
+  name: Smirnov Vasiliy                   # name
   title: Backend Developer           # job title
   avatar:
     show: false                      # show or hide avatar
@@ -16,17 +16,10 @@ contact:
   birthday: 08.12.2000     # birthday
   nationality:             # nationality
   visa:                    # passport visa
-  drivinglicense:          # driving licence
 
   # contact
-  wechat:                  # username
-  whatsapp:                # 8611122223333     | https://wa.me/8611122223333
   telegram: SmirnuX        # username          | https://t.me/username
-  messenger:               # username          | https://m.me/username
-  line:                    # lineid            | https://line.me/R/ti/p/@lineid
-  viber:                   # username          | https://vb.me/username
-  threema:                 # userid            | https://threema.id/userid
-
+  
   # programmer
   github: SmirnuX          # username          | https://github.com/username
   gitlab:                  # username          | https://gitlab.com/username
@@ -38,54 +31,13 @@ contact:
   codepen:                 # username          | https://codepen.io/username
   tryhackme:               # username          | https://tryhackme.com/p/username
 
-  # academic
-  googlescholar:           # username          | https://scholar.google.com/citations?user=username
-  researchgate:            # username          | https://www.researchgate.net/profile/username
-  kaggle:                  # username          | https://www.kaggle.com/username
-  orcid:                   # id                | https://orcid.org/id
-  figshare:                # name/id           | https://figshare.com/authors/name/id
-
-  # writer
-  devto:                   # username          | https://dev.to/username
-  medium:                  # username          | https://medium.com/@username
-  wordpress:               # username          | https://username.wordpress.com
-  blogger:                 # username          | https://username.blogspot.com
-  wikipedia:               # username          | https://www.wikipedia.org/wiki/User:username
-
-  # designer
-  figma:                   # username          | https://www.figma.com/@username
-  behance:                 # username          | https://www.behance.net/username
-  dribble:                 # username          | https://dribbble.com/username
-  artstation:              # username          | https://www.artstation.com/username
-
-  # other cv
-  linkedin:                # username          | https://linkedin.com/in/username
-  indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
-  xing:                    # username          | https://www.xing.com/profile/username
-  fiverr:                  # username          | https://www.fiverr.com/username
-  freelancer:              # username          | https://www.freelancer.com/u/username
-
-  # social media
-  twitter:                 # username          | https://twitter.com/username
-  mastodon:                # username@server
-  instagram:               # username          | https://instagram.com/username
-  unsplash:                # username          | https://unsplash.com/@username
-  _500px:                  # username          | https://500px.com/p/username
-  youtube:                 # username          | https://www.youtube.com/@username
-  tiktok:                  # username          | https://www.tiktok.com/@username
-  quora:                   # username          | https://www.quora.com/profile/username
-  zhihu:                   # username          | https://www.zhihu.com/people/username
-  goodreads:               # username          | https://www.goodreads.com/user/show/username
-  strava:                  # useid             | https://www.strava.com/athletes/userid
-
+ 
 profile:
   show: false
   order: 1
-  title: Profile
+  title: About me
   description: |
-    The profile section in a resume is a brief summary of the applicant's skills, qualifications, and experience. The purpose of this section is to provide a snapshot of the applicant's professional background and highlight their most relevant accomplishments and strengths. It may include information such as the applicant's career objectives, years of experience, areas of expertise, and key achievements.
 
-    A well-crafted profile section can help to grab the attention of potential employers and encourage them to read on and learn more about the applicant's qualifications and experience.    
 
 skill:
   show: true
@@ -98,16 +50,11 @@ skill:
       item:
         - C/C++ (STL, Qt)
         - Python
-        - SQL
     - name: Other skills
       item:
-        - Knowledge of Linux
-        - Computer networking
-        - 
-    - name: Group C Skills
-      item:
-        - Skill H
-        - Skill I
+        - Familiarity with the Linux operating system
+        - Knowledge of computer networking fundamentals
+        - Skills in using Git and Github
 
 experience:
   show: true
@@ -123,9 +70,10 @@ experience:
       role: Intern Backend Developer
       location: Moscow, Russia
       description: |
-      During my internship, I:
-        + Moved some service features to Temporal platform
-        + Modification of metric collection service
+      During my internship I worked on:
+        + transferring service functionality to the Temporal platform, testing and deploying this service
+        + refactoring the service to simplify navigation and configuration
+        + ensuring compatibility of the metrics collection system with internal services
 
 education:
   show: true
@@ -136,14 +84,14 @@ education:
     - institution: Moscow Aviation Institite 
       link:
       date: 2022 - current
-      major: Informatics and Computer Engineering
+      major: Computer science and Computer Engineering
       degree: Master
       description:
 
     - institution: Moscow Aviation Institite 
       link:
       date: 2018 - 2022
-      major: Informatics and Computer Engineering
+      major: Computer science and Computer Engineering
       degree: Bachelor
       description:
 
