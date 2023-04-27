@@ -43,18 +43,15 @@ skill:
   show: true
   order: 2
   title: Skills
-  description:
+  description: |
+    #### Programming languages:
+     - C/C++ (STL, Qt)
+     - Python
 
-  groups:
-    - name: Programming languages
-      item:
-        - C/C++ (STL, Qt)
-        - Python
-    - name: Other skills
-      item:
-        - Familiarity with the Linux operating system
-        - Knowledge of computer networking fundamentals
-        - Skills in using Git and Github
+    #### Other skills:
+     - Familiarity with the Linux operating system
+     - Knowledge of computer networking fundamentals
+     - Skills in using Git and Github
 
 experience:
   show: true
