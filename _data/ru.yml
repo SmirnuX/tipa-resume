@@ -1,13 +1,13 @@
 basic:
-  name: Smirnov Vasiliy [WIP]                     # name
-  title: Backend Developer           # job title
+  name: Смирнов Василий [WIP]                     # name
+  title: Бэкенд разработчик           # job title
   avatar:
     show: false                      # show or hide avatar
     path: /assets/images/profile.png # avatar file path
 
 contact:
   # meta
-  location: Moscow, Russia # location
+  location: Москва, Россия # location
   email: xomafok@gmail.com # email address
   phone:                   # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website:                 # site URL without schema, like example.com, will automatically prepand "https://"
@@ -90,67 +90,64 @@ profile:
 skill:
   show: true
   order: 2
-  title: Skills
+  title: Навыки
   description:
 
   groups:
-    - name: Programming languages
+    - name: Языки программирования
       item:
         - C/C++ (STL, Qt)
         - Python
         - SQL
-    - name: Other skills
+    - name: Другие нввыки
       item:
-        - Knowledge of Linux
-        - Computer networking
-        - 
-    - name: Group C Skills
-      item:
-        - Skill H
-        - Skill I
+        - Умение работать с ОС Linux
+        - Знание принципов работы и устройства компьютерных сетей
+        - Знание английского на уровне B2
+        - Умение работать с Git
+
 
 experience:
   show: true
   order: 3
-  title: Experiences
-  description: |
-
+  title: Опыт работы
+  description:
   items:
-    - company: Yandex, Geoservice infrastructure
+    - company: ООО "Яндекс", отделение инфраструктуры геосервисов
       link:
       tags: C++, Python
       date: 10.2022 - 04.2023
-      role: Intern Backend Developer
-      location: Moscow, Russia
+      role: Стажер-разработчик
+      location: Москва, Россия
       description: |
-      During my internship, I:
-        + Moved some service features to Temporal platform
-        + Modification of metric collection service
+      В ходе стажировки я:
+        + Перенес функционал сервиса на платформу Temporal
+        + 
 
 education:
   show: true
   order: 4
-  title: Education
+  title: Образование
   description:
   items:
-    - institution: Moscow Aviation Institite 
+    - institution: Московский Авиационный Институт 
       link:
-      date: 2022 - current
-      major: Informatics and Computer Engineering
-      degree: Master
+      date: 2022 - текущее время
+      major: Информатика и вычислительная техника
+      degree: Магистратура
       description:
 
-    - institution: Moscow Aviation Institite 
+    - institution: Московский Авиационный Институт
       link:
       date: 2018 - 2022
-      major: Informatics and Computer Engineering
-      degree: Bachelor
+      major: Информатика и вычислительная техника
+      degree: Бакалавриат
       description:
 
 language:
-  show: true
+  show: false
   order: 5
-  title: Languages
+  title: Языки
   description:
   items:
     - idiom: Russian
