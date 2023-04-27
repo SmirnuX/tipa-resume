@@ -70,10 +70,10 @@ experience:
       role: Intern Backend Developer
       location: Moscow, Russia
       description: |
-      During my internship I worked on:
-        + transferring service functionality to the Temporal platform, testing and deploying this service
-        + refactoring the service to simplify navigation and configuration
-        + ensuring compatibility of the metrics collection system with internal services
+        During my internship I worked on:
+          + transferring service functionality to the Temporal platform, testing and deploying this service
+          + refactoring the service to simplify navigation and configuration
+          + ensuring compatibility of the metrics collection system with internal services
 
 education:
   show: true
@@ -236,7 +236,7 @@ interest:
       link:
 
 evaluation:
-  show: true
+  show: false
   order: 13
   title: Self-evaluation
   description: |
